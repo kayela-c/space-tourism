@@ -128,5 +128,5 @@ select {
 .text-white { color: hsl( var(--clr-white));}
 
 .example {
-  .bg-accent { background-color: hsl( var(--clr-light));}
+  
 }
