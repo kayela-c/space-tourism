@@ -1,42 +1,4 @@
 
-
-/* ---------- */
-/*   Reset    */
-/* ---------- */
-
-/* https://piccalil.li/blog/a-modern-css-reset/ */
-
-/* Box sizing */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/*  Reset margins */
-
-body, 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-picture {
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 400;
-}
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
