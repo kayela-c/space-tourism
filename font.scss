@@ -32,35 +32,34 @@ p {
 
 /* colors */
 
-.bg-dark { background-color: hsl( var(--clr-dark));}
-.bg-accent { background-color: hsl( var(--clr-light));}
-.bg-white { background-color: hsl( var(--clr-white));}
+.bg-dark { background-color: $clr-dark;}
+.bg-accent { background-color: $clr-light;}
+.bg-white { background-color: $clr-white;}
 
-.text-dark { color: hsl( var(--clr-dark));}
-.text-accent { color: hsl( var(--clr-light));}
-.text-white { color: hsl( var(--clr-white));}
+.text-dark { color: $clr-dark;}
+.text-accent { color: $clr-light;}
+.text-white { color: $clr-white;}
 
 /* typography */
 
-.ff-serif { font-family: var(--ff-serif);}
-.ff-sans-cond { font-family: var(--ff-sans-cond);}
-.ff-sans-normal { font-family: var(--ff-sans-normal);}
+.ff-serif { font-family: $ff-serif;}
+.ff-sans-cond { font-family: $ff-sans-cond;}
+.ff-sans-normal { font-family: $ff-sans-normal;}
 
 .letter-spacing-1 { letter-spacing: 4.75px;}
 .letter-spacing-2 { letter-spacing: 2.7px;}
 .letter-spacing-3 { letter-spacing: 2.35px;}
 
-.uppercase { text-transform: uppercase;}
-
 .numbered-title {
-  font-family: var(--ff-sans-cond);
-  font-size: var(--fs-500);
+  font-family: $ff-sans-cond;
+  font-size: $fs-500;
   text-transform: uppercase;
   letter-spacing: 4.72px;
-}
-
-.numbered-title span {
+  
+  &span {
   margin-right: .5em;
   font-weight: 700;
-  color: hsl( var(--clr-white), .25); 
+  color: $clr-white, .25; 
+  }
 }
+
